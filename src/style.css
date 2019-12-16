@@ -4,24 +4,22 @@ body {
   background-color: black;
 }
 
-div {
-  background-color: rgb(44, 142, 193);
+.border-div {
   border: 1px solid rgb(231,84,81);
-  margin-bottom: 40px;
+  padding: 10px;
 }
 
 .middle {
   background-color: rgb(255,167,0);
-  margin: 10px;
 }
 
 .inner {
   background-color: rgb(222,222,222);
-  margin: 10px;
-  padding: 10px;
 }
 
 .outer {
+  background-color: rgb(44, 142, 193);
   width: 350px;
   box-sizing: border-box;
+  margin-bottom: 40px;
 }
