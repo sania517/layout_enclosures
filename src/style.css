@@ -1,0 +1,27 @@
+body {
+  padding: 20px;
+  margin: 0;
+  background-color: black;
+}
+
+div {
+  background-color: rgb(44, 142, 193);
+  border: rgb(231,84,81) solid 1px;
+  margin-bottom: 40px;
+
+}
+
+div > div {
+  background-color: rgb(255,167,0);
+  margin: 10px;
+}
+
+div > div > div {
+  background-color: rgb(222,222,222);
+  margin: 10px;
+  padding: 10px;
+}
+
+.cont {
+  width: 348px;
+}
